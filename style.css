@@ -3,7 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+.swiper {
+   height: 500px;
+}
 
+.mySwiper {
+   border-radius: 30px;
+}
+
+.mySwiper img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
 body {
   background-color: rgb(255, 255, 255);
   font-family: "Poppins", sans-serif;
