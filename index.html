@@ -6,6 +6,10 @@
   <title>SAMMARKET</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&family=Raleway:wght@400;500;800;900&display=swap" rel="stylesheet">
+<link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      />
 </head>
 <body>
     <div class="cont">
@@ -36,12 +40,39 @@
         <h2>TOP PRODUCTS</h2>
       </div>
 
-      <div class="scrolimg">
-        <img class="sc-img1" src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D" alt="">
-        <img class="sc-img2" src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL3BmLXMxMDgtcG0tNDExMy1tb2NrdXAuanBn.jpg" alt="">
-        <img class="sc-img1" src="https://www.averydennison.com/content/corp/na/en/home/_jcr_content/parsys_main/column_control/1/parsys_column/textimage/image.img.jpg/1666899727249.jpg" alt="">
-        <img class="sc-img2" src="https://assets.aboutamazon.com/dims4/default/6135839/2147483647/strip/false/crop/2000x1125+0+0/resize/1486x836!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F1a%2F2e%2F2ccae7614d92aae26c48933bb50f%2Fai-ad-design-hero.jpg" alt="">
-      </div>
+      <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <img
+                     class="sc-img1"
+                     src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D"
+                     alt=""
+                  />
+               </div>
+               <div class="swiper-slide">
+                  <img
+                     class="sc-img2"
+                     src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL3BmLXMxMDgtcG0tNDExMy1tb2NrdXAuanBn.jpg"
+                     alt=""
+                  />
+               </div>
+               <div class="swiper-slide">
+                  <img
+                     class="sc-img1"
+                     src="https://www.averydennison.com/content/corp/na/en/home/_jcr_content/parsys_main/column_control/1/parsys_column/textimage/image.img.jpg/1666899727249.jpg"
+                     alt=""
+                  />
+               </div>
+               <div class="swiper-slide">
+                  <img
+                     class="sc-img2"
+                     src="https://assets.aboutamazon.com/dims4/default/6135839/2147483647/strip/false/crop/2000x1125+0+0/resize/1486x836!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F1a%2F2e%2F2ccae7614d92aae26c48933bb50f%2Fai-ad-design-hero.jpg"
+                     alt=""
+                  />
+               </div>
+            </div>
+            <div class="swiper-pagination"></div>
+         </div>
 
       <div class="prod">
         <div class="prodte">
@@ -65,5 +96,7 @@
 
 
     </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="main.js"></script>
 </body>
 </html>
